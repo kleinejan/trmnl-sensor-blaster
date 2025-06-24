@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "TRMNL Entity Push Configuration",
+        "description": "Configure your TRMNL webhook and sensor groups",
+        "data": {
+          "url": "TRMNL Webhook URL",
+          "sensor_groups": "Sensor Groups (Labels)"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Invalid URL format. Must start with http:// or https://",
+      "no_sensor_groups": "At least one sensor group must be specified",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "Service is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "TRMNL Entity Push Options",
+        "description": "Update your TRMNL configuration",
+        "data": {
+          "url": "TRMNL Webhook URL",
+          "sensor_groups": "Sensor Groups (Labels)"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Invalid URL format. Must start with http:// or https://",
+      "no_sensor_groups": "At least one sensor group must be specified",
+      "unknown": "Unexpected error occurred"
+    }
+  }
+}

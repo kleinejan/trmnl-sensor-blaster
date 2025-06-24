@@ -1,0 +1,10 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.9.3",
+    "homeassistant>=2024.3.3",
+    "voluptuous>=0.13.1",
+]
