@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Home Assistant
+.HA_VERSION
+.cloud/
+.storage/
+known_devices.yaml
+secrets.yaml
+*.log
+
+# Replit
+.replit
+replit.nix
+.cache/
+.pythonlibs/
+.upm/
+venv/
+
+# Development
+*.tmp
+*.bak
+.pytest_cache/

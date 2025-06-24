@@ -113,6 +113,13 @@ This is a Home Assistant custom integration that pushes entity data from labeled
 
 ## Recent Changes
 
+- June 24, 2025: Integration ready for Git commit and deployment
+  - Organized files into proper `custom_components/trmnl_sensor_push/` structure
+  - Created comprehensive documentation (README.md, CHANGELOG.md)
+  - Added Git configuration and setup instructions
+  - Completed grouped JSON payload implementation
+  - Version 0.3.1 ready for HACS distribution
+
 - June 24, 2025: Updated integration to support custom sensor groups
   - Users can now define groups like "garbage", "temperatures", etc.
   - Grouped JSON payload structure with sensors organized by category
